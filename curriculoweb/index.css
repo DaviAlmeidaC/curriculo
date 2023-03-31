@@ -1,0 +1,93 @@
+@keyframes fade-in {
+    from { opacity: 0 }
+    to   { opacity: 1 }
+  }
+
+body{
+    background-color: azure;
+    
+    animation: fade-in 2s normal forwards ease-in-out;
+}
+
+.div-prin{
+    margin-top: 250px;
+    margin-left: 700px;
+    max-width: 1000px;
+    font-family: 'Alkatra', cursive;
+    background-color: rgb(238, 228, 238);
+  background-image: url(5a2a3d3fca6a09.7295199715127176318291.png);
+    box-shadow: 50px 23px 30px 6px rgb(169, 169, 248);
+  border-radius: 10px;
+  background-image: no-repeat;
+ display: flex;
+ 
+}
+
+.img-menu{
+    width: 50px;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+
+
+.img-principal{
+    width: 550px;
+    height: 640px;
+}
+
+.h2{
+    font-size: 35px;
+    margin-bottom: 10px;
+    color: darkmagenta;
+
+}
+
+.h1{
+    font-size: 55px;
+    color: darkmagenta;
+    font-weight: bold;
+}
+
+.p{
+    margin-top: 15px;
+    color: darkmagenta;
+}
+
+.botao{
+    background-color:darkmagenta;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 8px 30px;
+    box-shadow: 3px 3px 3px 1px gray;
+    text-transform: uppercase;
+    font-size: 15px;
+    
+}
+
+.img-logo-container{
+    align-self: center;
+   
+}
+
+.img-logo{
+    width: 20px;
+    margin-top: 24px;
+   border-radius: 5px;
+    margin-left:20px ;
+}
+
+.botao:hover{ 
+    transform: scale(1.2);
+   background-color: blueviolet;
+   transition: 0.3s all;
+}
+
+.img-menu:hover{
+    transform: scale(1.2);
+    transition: 0.2s all;
+}
+
+.img-logo:hover{
+    background-color: blueviolet;
+}
